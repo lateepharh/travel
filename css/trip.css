@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  width: 100vw;
+  height: fit-content;
+}
+header img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.head1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: fit-content;
+  width: 100vw;
+  color: rgb(158, 17, 17);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.flex, .contact {
+  display: flex;
+  gap: 10px;
+}
+
+.contact {
+  align-items: center;
+}
+.contact a {
+  color: rgb(158, 17, 17);
+}
+
+.left {
+  border-left: 1px solid rgb(158, 17, 17);
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.head2 {
+  height: fit-content;
+  background-color: rgb(158, 17, 17);
+  gap: 18px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.cont {
+  position: relative;
+  display: none;
+}
+
+ul li:hover .cont {
+  height: fit-content;
+  max-width: 200px;
+  color: white;
+  background-color: rgb(158, 17, 17);
+  padding: 10px;
+  margin-top: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: block;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.one {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.color {
+  width: 300px;
+  height: fit-content;
+  background-color: rgb(158, 17, 17);
+  padding: 5px;
+  color: white;
+}
+.color img {
+  width: 290px;
+  height: 200px;
+  border: 2px solid white;
+}
+.color aside {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.color aside h5 {
+  align-self: center;
+}
+
+button {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+
+.center {
+  text-align: center;
+}
+.center h5 {
+  color: gray;
+}
+
+.earth img {
+  width: 20px;
+  height: 20px;
+}
+
+.mage img {
+  width: 100vw;
+  height: 70vh;
+}
+
+footer {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(158, 17, 17);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin: 15px;
+}
+footer hr {
+  color: rgba(0, 0, 0, 0.2);
+}
+footer h5 {
+  margin: 15px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}/*# sourceMappingURL=trip.css.map */
